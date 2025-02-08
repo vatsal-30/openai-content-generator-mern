@@ -10,7 +10,7 @@ A full-stack AI content generator application built with the MERN stack (MongoDB
 - **MVC Architecture**: Organized backend structure for scalability and maintainability.
 
 ## Tech Stack ⚙️
-- **Frontend**: React, HTML, CSS
+- **Frontend**: React, HTML, CSS, Tailwind
 - **Backend**: Node.js, Express, OpenAI's GPT
 - **Database**: MongoDB
 - **Payment Processing**: Stripe API
@@ -40,17 +40,12 @@ A full-stack AI content generator application built with the MERN stack (MongoDB
 
 3. Configure your environment variables for both frontend and backend:
 
-    - Backend (`.env`):
+   Backend (`.env`):
       ```env
       PORT=5000
       MONGO_URI=<your_mongo_database_uri>
       STRIPE_SECRET_KEY=<your_stripe_secret_key>
       JWT_SECRET=<your_jwt_secret_key>
-      ```
-
-    - Frontend (`.env`):
-      ```env
-      REACT_APP_API_URL=http://localhost:5000
       ```
 
 4. Start the backend:
